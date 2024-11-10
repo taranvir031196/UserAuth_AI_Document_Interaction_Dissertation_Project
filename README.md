@@ -1,0 +1,2 @@
+# UserAuth_AI_Document_Interaction_Dissertation_Project
+Repository related to User Authentication for AI Document Interaction RAG application
