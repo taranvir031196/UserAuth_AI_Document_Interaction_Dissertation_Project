@@ -1,0 +1,55 @@
+/* src/login.css */
+.login-container {
+    background-image: url('https://i.ibb.co/qD5XYNY/documate-ai-background-image.webp');
+    display: flex;
+    padding-inline: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f7f7f7; /* Light background color */
+    background-size: contain;
+}
+
+.card {
+    max-width: 470px;
+    padding-inline: 10%;
+    margin: 0% 1% 0 0%;
+    width: 100%;
+    padding: 53px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 105%;
+    padding: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
